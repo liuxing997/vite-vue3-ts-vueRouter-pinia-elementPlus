@@ -38,5 +38,9 @@
         "vue-router"
       ]
     }
+  },
+  "author":{
+    "name":"liuxing",
+    "email":"liuxing997@foxmail.com"
   }
 }

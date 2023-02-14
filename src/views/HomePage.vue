@@ -42,7 +42,7 @@ import HelloWorld from "../components/HelloWorld.vue";
   filter: drop-shadow(0 0 2em #150decaa);
 }
 
-.logo.ant:hover {
+.logo.element-plus:hover {
   filter: drop-shadow(0 0 2em #b87142aa);
 }
 </style>
