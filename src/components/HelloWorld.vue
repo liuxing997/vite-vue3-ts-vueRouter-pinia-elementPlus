@@ -10,7 +10,7 @@
     <el-button type="warning" :icon="Star" circle />
     <p>
       Thank you for use llx-cli !
-      <code></code> by 刘兴
+      <code></code>Development by 刘兴
     </p>
   </div>
 
