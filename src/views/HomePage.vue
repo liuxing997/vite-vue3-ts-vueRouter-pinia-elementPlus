@@ -6,6 +6,13 @@
     <a href="https://vuejs.org/" target="_blank">
       <img src="/vue.svg" class="logo vue" alt="Vue logo" />
     </a>
+    <a href="https://www.typescriptlang.org/" target="_blank">
+      <img
+        src="/typescript.ico"
+        class="logo typescript"
+        alt="typescript logo"
+      />
+    </a>
     <a href="https://pinia.web3doc.top/" target="_blank">
       <img src="/pinia.svg" class="logo pinia" alt="pinia logo" />
     </a>
@@ -17,7 +24,7 @@
       />
     </a>
   </div>
-  <HelloWorld msg="Vite + Vue + pinia + Element-Plus." />
+  <HelloWorld msg="Vite + Vue + TypeScript + Pinia + Element-Plus." />
 </template>
 
 <script setup lang="ts">
@@ -36,6 +43,10 @@ import HelloWorld from "../components/HelloWorld.vue";
 }
 .logo.vue:hover {
   filter: drop-shadow(0 0 2em #42b883aa);
+}
+
+.logo.typescript:hover {
+  filter: drop-shadow(0 0 2em #6042b8aa);
 }
 
 .logo.pinia:hover {
