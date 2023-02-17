@@ -3,6 +3,7 @@
 
   <div class="card">
     <button type="button" @click="count++">count is {{ count }}</button>
+    &emsp;
     <button type="button" @click="store.count++">
       pinia count is {{ store.count }}
     </button>
